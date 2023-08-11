@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    padding: 20px;
+  }
+  .header{
+    text-align: center;
+  }
+  .sub-header {
+    background-color: #eb5f0f;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .details {
+    color: #eb5f0f;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .orange-line {
+    width: 30%;
+    height: 5px;
+    background-color: #eb5f0f;
+    margin-top: 20px;
+  }
+.skills{
+  padding: 5px 10px;
+}
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: -650px;
+  }
+  
